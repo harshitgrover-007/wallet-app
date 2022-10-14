@@ -2,8 +2,17 @@ import React from "react";
 import {
     View,
     Text,
-    TouchableOpacity
+    TouchableOpacity,
+    TouchableWithoutFeedback,
+    Image,
+    TextInput,
+    Modal,
+    FlatList,
+    KeyboardAvoidingView,
+    ScrollView
 } from "react-native";
+
+import { COLORS, FONTS, icons, images, SIZES } from "../constants";
 
 const SignUp = ()  => {
     return (
